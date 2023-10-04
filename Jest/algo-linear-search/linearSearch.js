@@ -1,5 +1,8 @@
 function linearSearch(searchTerm, arr) {
-  return undefined;
+  
+  
+  
+  return item_index;
 }
 
 function globalLinearSearch(searchTerm, arr) {
