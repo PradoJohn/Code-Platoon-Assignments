@@ -1,12 +1,20 @@
 function linearSearch(searchTerm, arr) {
   
-  
-  
-  return item_index;
+  for(let i = 0; i<arr.length; i++){
+    if (searchTerm == arr[i]){
+      return i;
+    }
+  }
 }
 
 function globalLinearSearch(searchTerm, arr) {
-  return [];
+  const res = [];
+  for(let i = 0; i<arr.length; i++){
+    if (searchTerm === arr[i]){
+      res.push(i);
+    }
+  }
+  return res;
 }
-
+console.log(globalLinearSearch('a', "bananas".split("")))
 module.exports = { linearSearch, globalLinearSearch };
